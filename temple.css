@@ -1,0 +1,81 @@
+/* Rachel Simpson */
+/* Three Column Template */
+/* 11-Jan-2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+/*Controls how where my header is located on the top of the page*/
+header { 
+    border-bottom: 2px solid gray;
+    text-align: center; 
+    }
+    
+/*Below is the code to make the background of my page pink and makes the box around my huge page*/
+body {
+    width: 964px;
+    background-color: #FEB0B0;
+    margin: 15px auto;
+    border: 1px solid black; 
+    }
+
+/*This is the css code for the trivia sidebar and controls the font size and is how all of the columns are next to each other because I said float left*/
+#sidebarA {
+    width: 23%;
+    height: 580px;
+    float: left;     
+    text-align: center;
+    border-right: 2px solid gray;
+    font-size: 15px;
+    padding: 7px;
+    }
+/*the main effects my biography column where I used padding to leave space between the column and my text*/
+main {
+    width: 50%;
+    float: left;
+    font-size: 15px;
+    padding: 5px;
+     }
+    
+/*Below is how I got the dashed box around my photos*/
+img {
+	height: 150px;
+	width:  150px;
+	margin: 12px;
+	border: 2px dashed;
+	padding: 5px; 
+	}
+
+/*Below is how in the biography section I got my text to float around my image*/
+.mainimage {
+	float: left;
+	}
+/*This goes to my accomplisment sidebar and also tells my page how long and wide I want the columns to be according to how much text I have*/
+#sidebarB {
+    width: 24%;
+    height: 580px;     
+    float: right;
+    /* text-align: center; */
+    border-left: 2px solid gray;
+    font-size: 15px;
+     }
+/*This goes to my footer where I used an unordered list and where I used a margin to have space between the list and the edge of the page and I cleared the text so it would stay in the bottom left of my page and not run into another column*/
+footer {
+    clear: both; 
+    border-top: 2px solid gray;
+    margin: 5px;
+    }
+
+/*this goes to my unordered list in the accomplishment column where I used margin to get my list away from the edge of the column*/
+ul {
+	margin: 20px;
+	}
+/*This is for my photo and header in the accomplishment column so it is centered*/
+.temple {
+	text-align: center;
+	padding-top: 8px;
+	}
+
+
+
+
